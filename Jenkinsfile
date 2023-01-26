@@ -4,7 +4,7 @@ pipeline {
         cron('H */4 * * 1-5')
     }
     stages {
-        stage('Example') {
+        stage('Stage-BuildTrigger') {
             steps {
                 echo "Hare Krishna"
             }
